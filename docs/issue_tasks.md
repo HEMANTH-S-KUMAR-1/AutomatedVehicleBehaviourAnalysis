@@ -12,7 +12,7 @@
 ---
 
 ## 2) Bug fix task
-**Task:** Remove hard-coded local Windows path usage in `vehicle_behavior_analysis.m` and derive paths relative to the script/repo.
+**Task:** Remove hard-coded local Windows path usage in `scripts/vehicle_behavior_analysis.m` and derive paths relative to the script/repo.
 
 **Why:** The script currently sets `projectRoot` to a machine-specific path, which breaks execution on any other system.
 
